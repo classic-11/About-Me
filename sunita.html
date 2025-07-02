@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunita Khatiwada | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #cce2f8, #e6f0ff);
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background-color: #0066cc;
+      color: white;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      animation: float 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    h1 {
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    p.subtitle {
+      font-size: 1rem;
+      color: #e0ecff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      background: white;
+      margin: 2rem 0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s ease;
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #004c99;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.5rem;
+    }
+
+    ul li {
+      background: #f0f8ff;
+      padding: 0.5rem 1rem;
+      border-left: 4px solid #0066cc;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .profile-pic {
+        width: 120px;
+        height: 120px;
+      }
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="sunita.jpeg" alt="Sunita Khatiwada" class="profile-pic">
+  <h1>Sunita Khatiwada</h1>
+  <p class="subtitle">Software Development & Network Engineering</p>
+</header>
+
+<div class="container">
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Sunita — a tech enthusiast currently studying Software Development and Network Engineering at Sheridan College. I love building websites, solving problems, and learning new technologies with a smile. 😄</p>
+  </section>
+
+  <section>
+    <h2>My Skills</h2>
+    <ul>
+      <li>Amazon Web Services (AWS)</li>
+      <li>Cisco Networking</li>
+      <li>Cloud Computing</li>
+      <li>Web Design</li>
+      <li>Microsoft SQL Server</li>
+      <li>Linux</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Node.js</li>
+      <li>Git / GitHub</li>
+      <li>Python</li>
+      <li>SQL / PL/SQL</li>
+      <li>MongoDB</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fun Facts 🌈</h2>
+    <ul style="display:block;">
+      <li>I drink cold coffee while debugging ☕</li>
+      <li>I dream of becoming a full-time software queen 👑</li>
+      <li>I believe in learning by doing — and failing forward!</li>
+      <li>Currently obsessed with making my portfolio ✨</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:skhatiwada010@gmail.com">skhatiwada010@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sunita-khatiwada-156015229/" target="_blank">https://www.linkedin.com/in/sunita-khatiwada-156015229/</a></p>
+  </section>
+</div>
+
+<footer>
+  <p>© 2025 Sunita Khatiwada Sheridan College</p>
+</footer>
+
+</body>
+</html>
